@@ -100,6 +100,7 @@ class Pdf extends File implements FileIndexerInterface
 
         // get PDF informations
         if (!$pdfInfo = $this->getPdfInfo($file)) {
+            $this->pObj->logger->info('.. !!!!ERROR No Info for : ' . $file );
             return false;
         }
 

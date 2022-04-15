@@ -3,6 +3,8 @@ namespace Tpwd\KeSearch\Lib;
 
 use TYPO3\CMS\Core\Core\Environment;
 use TYPO3\CMS\Core\Utility\GeneralUtility;
+use TYPO3\CMS\Core\Utility\CommandUtility;
+
 
 /***************************************************************
  *  Copyright notice
@@ -116,7 +118,7 @@ class Fileinfo
     }
 
     /**
-     * Returns the absolute path to the directory where the file is located, e. g. "/var/www/html/public/fileamin/".
+     * Returns the absolute path to the directory where the file is located, e. g. "/var/www/html/public/fileadmin/".
      *
      * @return string
      */
